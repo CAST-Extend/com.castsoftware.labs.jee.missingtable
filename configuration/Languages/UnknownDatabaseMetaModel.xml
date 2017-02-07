@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metaModel file_level="client" file_no="0">
+    <type name="UnknownTable" rid="0">
+        <description>Missing Table</description>
+        <inheritedCategory name="CAST_PluginObject"/>
+        <!-- we add inheritance to Database Table so that is it may be considered as a table -->
+        <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+        <inheritedCategory name="Database Table"/>
+    </type>
+    <type name="UnknownColumn" rid="1">
+        <description>Missing Column</description>
+        <inheritedCategory name="CAST_PluginObject"/>
+        <!-- we add inheritance to CAST_Database_Column so that is it may be considered as a column-->
+        <inheritedCategory name="CAST_Database_Column"/>
+    </type>
+    <type name="UnknownProcedure" rid="2">
+        <description>Missing Procedure</description>
+        <inheritedCategory name="CAST_PluginObject"/>
+        <!-- we add inheritance to Database Procedure so that is it may be considered as a table -->
+        <attribute name="AUTO_FOLDER_THRESHOLD" intValue="1"/>
+        <inheritedCategory name="Database Procedure"/>
+    </type>
+ 
+</metaModel>

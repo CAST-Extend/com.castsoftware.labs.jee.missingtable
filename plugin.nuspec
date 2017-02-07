@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id> com.castsoftware.jee.missingtable</id>
+    <version>1.0.0-beta1</version>
+    <title>JEE Missing Table Extension</title>
+    <authors>CAST</authors>
+    <owners>CAST</owners>
+    <licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-AIP-Extension-License</licenseUrl>
+    <projectUrl>https://confluence.castsoftware.com/display/PSTS/JEE+Missing+Table+Extension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This extension tries to construct missing tables and procedures in the way of unknown objects created by ABAP and Mainframe analysers.</description>
+    <tags>JEE Missing Table Procedure CAIP7.3 CAIP8.0</tags>
+    <dependencies>
+      <dependency id="CAIP" version="7.3.4" />
+    </dependencies>
+  </metadata>
+</package>
