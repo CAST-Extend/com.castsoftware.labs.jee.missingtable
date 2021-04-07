@@ -1,1 +1,1 @@
-# com.castsoftware.jee.missingtable
+# com.castsoftware.labs.jee.missingtable
